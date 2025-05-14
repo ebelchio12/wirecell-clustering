@@ -3,7 +3,7 @@
 
 ## Goal of the tool
 
-Have a tool to evaluate the performance of WireCell clustering algorithm. Make a full chain of event generation, wirecell simulation, wirecell signal processing, wirecell imaging and wirecell clustering. Evaluate the performance of the clustering algorithm based on two metrics: charge-weighted efficiency and purity.
+A tool for evaluating the performance of WireCell clustering algorithm. Make a full chain of event generation, wirecell simulation, wirecell signal processing, wirecell imaging and wirecell clustering. Evaluate the performance of the clustering algorithm based on two metrics: charge-weighted efficiency and purity.
 
 ## Files list
 
