@@ -1,4 +1,4 @@
-# Wire-Cell clustering evaluation tool
+# Evaluation tool for Wire-Cell clustering
 
 
 ## Goal of the tool
