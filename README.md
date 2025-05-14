@@ -21,5 +21,5 @@ Have a tool to evaluate the performance of WireCell clustering algorithm. Make a
 
 ## How to get the code:
 
-1)	git clone [ebelchio12/wirecell-clustering](https://github.com/ebelchio12/wirecell-clustering.git)
+1)	git clone https://github.com/ebelchio12/wirecell-clustering.git
 
