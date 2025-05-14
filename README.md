@@ -7,19 +7,19 @@ Have a tool to evaluate the performance of WireCell clustering algorithm. Make a
 
 ## Files list
 
-1)	Clustering v0_30_2.ipynb
-2)	create_cluster_samples.sh
-3)	main_cluster_eval.ipynb
-4)	clustering_eval.ipynb
+1)	**Clustering v0_30_2.ipynb**
+2)	**create_cluster_samples.sh**
+3)	**main_cluster_eval.ipynb**
+4)	**clustering_eval.ipynb**
 
 ## File details:
 
-1)	General information on how to setup sbndcode, wirecell, larreco, etc.
-2)	bash script to run a full chain of generation, simulation.., wirecell clustering. Usage: bash create_cluster_samples.sh 
-3)	Driver notebook to run an external notebook (clustering_eval.ipynb). You can define evaluation parameters on it. Usage: go to the top of the notebook, then click Run > Run All Cells.
-4)	an internal notebook to be run by main_cluster_eval.ipynb. It is automatically run.
+1)	**Clustering v0_30_2.ipynb**: General information on how to setup sbndcode, wirecell, larreco, etc.
+2)	**create_cluster_samples.sh**: bash script to run a full chain of generation, simulation.., wirecell clustering. Usage: bash create_cluster_samples.sh 
+3)	**main_cluster_eval.ipynb**: Driver notebook to run an external notebook (clustering_eval.ipynb). You can define evaluation parameters on it. Usage: go to the top of the notebook, then click Run > Run All Cells.
+4)	**clustering_eval.ipynb**: an internal notebook to be run by main_cluster_eval.ipynb. It is automatically run.
 
 ## How to get the code:
 
-1)	Git clone 
+1)	git clone [ebelchio12/wirecell-clustering](https://github.com/ebelchio12/wirecell-clustering.git)
 
