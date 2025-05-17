@@ -1,14 +1,14 @@
 # File: create_cluster_samples.sh
 # Author: Ewerton Belchior
 #
-# Goal: Script to generate samples, run clustering and save output in txt
+# Goal: Script to generate samples, run wirecell sigproc/img/clustering and save output in txt format for evaluation
 #
 # Usage: bash create_cluster_samples.sh
 #
 
 #!/bin/bash
 
-# choose sbndcode version
+# choose sbndcode version. This is used for folder naming only.
 SBNDCODE_VERSION="v10_04_07"
 # choose process: "cosmics", "nu_spill", "nuecc", "numucc" or "data".
 PROCESS="nu_spill"
