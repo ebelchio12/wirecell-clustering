@@ -9,10 +9,16 @@ A tool for evaluating the performance of WireCell clustering algorithm. Make a f
 
 1)	git clone https://github.com/ebelchio12/wirecell-clustering.git
 
+## Requirements:
+
+This tools requires jupyter-notebook.
+
 ## File details:
 
 - **Clustering v0_30_2.ipynb**
   - General information on how to setup sbndcode, larreco, wirecell, etc. Look at this notebook first.
+  - Open a web browser and paste: http://localhost:8891/tree?
+    - Navigate through folders until you find the notebook. Click on it to open.
 
 - **create_cluster_samples.sh**
   - bash script to run a full chain of sample generation, wirecell simulation, signal processing, imaging and clustering. Saves output in .txt format for clustering evaluation.
@@ -20,7 +26,7 @@ A tool for evaluating the performance of WireCell clustering algorithm. Make a f
 
 - **main_cluster_eval.ipynb**
   - Driver notebook to run the evaluation of Wire-Cell clustering with the help of an external notebook (clustering_eval.ipynb).
-    - Log in to your gpvm area and download the code
+    - Log in to your gpvm area and download the code: git clone https://github.com/ebelchio12/wirecell-clustering.git
       - Setup any version of sbndcode:
         - source /cvmfs/sbnd.opensciencegrid.org/products/sbnd/setup_sbnd.sh
         - setup sbndcode v09_91_02 -q e26:prof
