@@ -210,7 +210,7 @@ if [ "$PROCESS" != "data" ]; then
       head -n $E $OUTDIR/data/$i/$i-truthDepo-apa1.json | tail -n 1 | cut -c 6- | rev | cut -c 3- | rev | tr ',' '\n' > $NEWOUTDIR/$i/e_truth_apa1.txt
     fi
   done
-'''
+
   # clustering info
   for i in $(seq 0 $((NEVT - 1)))
   do
@@ -225,5 +225,5 @@ if [ "$PROCESS" != "data" ]; then
     awk -F'[][]' '{if (NF>8) print $8}' $OUTDIR/data/$i/$i-clustering-1-1.json | tr ',' '\n' > $NEWOUTDIR/$i/y_clustering_apa1.txt  
     awk '{sub(/^.*z/, ""); print}' $OUTDIR/data/$i/$i-clustering-1-1.json | cut -c 4- | rev | cut -c 3- | rev | tr ',' '\n' > $NEWOUTDIR/$i/z_clustering_apa1.txt  
   done
-'''  
+
 fi
