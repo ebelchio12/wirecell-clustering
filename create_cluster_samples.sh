@@ -22,8 +22,8 @@ DUMPWAVEFORM=false
 TRUTHDEPOS_SAVEAPA="apa0"
 
 # set DIR
-WORKDIR=/exp/sbnd/app/users/ebatista/wirecell-clustering/work
-OUTDIR=/exp/sbnd/data/users/ebatista/wirecell-clustering/out
+WORKDIR=/exp/sbnd/app/users/$USER/wirecell-clustering/work
+OUTDIR=/exp/sbnd/data/users/$USER/wirecell-clustering/out
 
 # FCLs for various steps
 FCL_GEN=""
