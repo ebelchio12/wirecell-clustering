@@ -81,7 +81,7 @@ fi
 
 # setup sbndcode
 source /cvmfs/sbnd.opensciencegrid.org/products/sbnd/setup_sbnd.sh
-setup sbndcode v10_04_07 -q e26:prof
+setup sbndcode $SBNDCODE_VERSION -q e26:prof
 
 # steps to process depends on MC or Data
 if [ "$PROCESS" != "data" ]; then
