@@ -17,7 +17,7 @@ This tool requires jupyter-notebook.
 
 - **Clustering v0_30_2.ipynb**
   - General information on how to setup sbndcode, larreco, wirecell, etc. Look at this notebook first.
-  - Open a web browser and paste: http://localhost:8891/tree?
+  - Open a web browser and paste: http://localhost:8891/tree
     - Navigate through folders until you find the notebook. Click on it to open.
 
 - **create_cluster_samples.sh**
