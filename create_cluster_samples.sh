@@ -31,7 +31,7 @@ FCL_GEN=""
 FCL_G4=standard_g4_sbnd.fcl # for sbndcode v10_04_07
 FCL_SIGPROC=wirecell_sim_sp_sbnd.fcl
 FCL_IMGCLUS=$WORKDIR/wcp-porting-img/sbnd/wcls-img-clus.fcl
-FCL_CELLTREE=celltree_sbnd_ew.fcl # APA in this fcl should be consistent with the one defined above in TRUTHDEPOS_SAVEAPA.
+FCL_CELLTREE=$WORKDIR/larsoft_v10_04_07/srcs/larreco/larreco/WireCell/celltree_sbnd.fcl # APA in this fcl should be consistent with the one defined above in TRUTHDEPOS_SAVEAPA.
 
 # ROOT macros
 ROOT_DUMPWAVEFORM=dump_waveform.C
