@@ -79,6 +79,8 @@ if [ ! -d "$OUTDIR" ]; then
   mkdir -p $OUTDIR
 fi
 
+# se
+
 # steps to process depends on MC or Data
 if [ "$PROCESS" != "data" ]; then
   echo "Processing MC..."
