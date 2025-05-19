@@ -27,11 +27,12 @@ A tool for evaluating the performance of WireCell clustering algorithm. Make a f
       - Start jupyter:
         - ~/.local/bin/jupyter-notebook --MultiKernelManager.default_kernel_name=bash --no-browser --port=8080
     - On your local machine/laptop:
-      - Create an SSH tunnel: ssh -L 8080:localhost:8080 <username>@sbndgpvm02.fnal.gov
+      - Create an SSH tunnel: ssh -L 8080:localhost:8080 username@sbndgpvm02.fnal.gov
       - Open a web browser and paste: http://localhost:8080/tree
       - Click on wirecell-clustering > main_cluster_eval.ipynb
+      - Got to the top of the notebook and click *Run > Run All Cells*
    
 - **clustering_eval.ipynb**
-  - an internal notebook to be run by main_cluster_eval.ipynb. It is automatically run.
+  - an external notebook to be run by main_cluster_eval.ipynb. It is automatically run.
 
 
