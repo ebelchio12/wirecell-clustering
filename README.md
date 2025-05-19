@@ -7,7 +7,7 @@ A tool for evaluating the performance of WireCell clustering algorithm. Make a f
 
 ## How to get the code:
 
-1)	git clone https://github.com/ebelchio12/wirecell-clustering.git
+git clone https://github.com/ebelchio12/wirecell-clustering.git
 
 ## Requirements:
 
