@@ -11,7 +11,7 @@ git clone https://github.com/ebelchio12/wirecell-clustering.git
 
 ## Requirements:
 
-This tool requires python and jupyter-notebook.
+This tool requires python, matplotlib, sklearn and jupyter-notebook.
 
 ## File details:
 
