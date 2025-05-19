@@ -69,10 +69,10 @@ OUTPUT_G4=$OUTDIR/g4.root
 OUTPUT_SIGPROC=$OUTDIR/sigproc.root
 
 # clone img-clus repo
-cd $WORKDIR
-if [ ! -d "wcp-porting-img" ]; then
-  git clone https://github.com/HaiwangYu/wcp-porting-img.git
-fi
+#cd $WORKDIR
+#if [ ! -d "wcp-porting-img" ]; then
+#  git clone https://github.com/HaiwangYu/wcp-porting-img.git
+#fi
 
 # create output dir
 if [ ! -d "$OUTDIR" ]; then
